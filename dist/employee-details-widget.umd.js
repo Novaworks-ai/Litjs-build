@@ -296,7 +296,7 @@
         color: var(--color-text-subtle, #6b7280);
         font-size: var(--font-size-sm, 0.875rem);
       }
-    `],ne([k({type:Array,attribute:!1})],B.prototype,"fields",2),ne([k({type:Number})],B.prototype,"columns",2),B=ne([xe("field-list-widget")],B);/*!
+    `],ne([k({type:Array})],B.prototype,"fields",2),ne([k({type:Number})],B.prototype,"columns",2),B=ne([xe("field-list-widget")],B);/*!
  * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
