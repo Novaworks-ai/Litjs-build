@@ -274,7 +274,7 @@
       }
 
       .field-label {
-        font-size: var(--font-size-2xs, 0.7rem);
+        font-size: var(--font-size-md, 1rem);
         letter-spacing: 0.08em;
         text-transform: uppercase;
         color: var(--color-text-subtle, #6b7280);
@@ -282,7 +282,7 @@
       }
 
       .field-value {
-        font-size: var(--font-size-md, 1rem);
+        font-size: var(--font-size-lg, 1.125rem);
         color: var(--color-text, #111827);
         font-weight: var(--font-weight-medium, 500);
       }
