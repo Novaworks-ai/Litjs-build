@@ -1178,6 +1178,7 @@
       ></add-contact-modal>
     `}},$.ProfileDetails.styles=[C,_,A,w,z,S,W,m`
       :host {
+        all: initial;
         display: block;
       }
 
