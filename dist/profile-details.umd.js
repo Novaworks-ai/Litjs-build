@@ -707,6 +707,7 @@
       </div>
     `}};it.styles=[C,_,A,w,S,m`
       :host {
+        all: initial;
         display: block;
         color: var(--color-text, #111827);
         background: none;
