@@ -577,8 +577,8 @@
       }
 
       .field-label {
-        font-size: 0.7em; /* 0.7 * 16px = 11.2px */
-        letter-spacing: 0.08em;
+        font-size: 0.7rem; /* 0.7 * 16px = 11.2px */
+        letter-spacing: 0.08rem;
         text-transform: uppercase;
         color: var(--color-text-subtle, #6b7280);
         font-weight: var(--font-weight-medium, 500);
@@ -597,7 +597,7 @@
 
       .empty-state {
         color: var(--color-text-subtle, #6b7280);
-        font-size: 0.875em; /* 0.875 * 16px = 14px */
+        font-size: 0.875rem; /* 0.875 * 16px = 14px */
       }
     `],oe([V({type:Array,attribute:!1})],R.prototype,"fields",2),oe([V({type:Number})],R.prototype,"columns",2),R=oe([we("field-list-widget")],R);/*!
  * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
