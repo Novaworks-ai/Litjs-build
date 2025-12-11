@@ -533,8 +533,8 @@
       </div>
     `}};R.styles=[Oe,Ce,Me,Pe,Te,g`
       :host {
+        font-size: 16px;
         display: block;
-        font-size: 16px; /* base for em units inside this component */
         color: var(--color-text, #111827);
         background: none;
         background-color: transparent;
@@ -577,15 +577,15 @@
       }
 
       .field-label {
-        font-size: 0.7rem; /* 0.7 * 16px = 11.2px */
-        letter-spacing: 0.08rem;
+        font-size: var(--font-size-2xs, 0.7rem);
+        letter-spacing: 0.08em;
         text-transform: uppercase;
         color: var(--color-text-subtle, #6b7280);
         font-weight: var(--font-weight-medium, 500);
       }
 
       .field-value {
-        font-size: 1em; /* 1 * 16px = 16px */
+        font-size: var(--font-size-md, 1rem);
         color: var(--color-text, #111827);
         font-weight: var(--font-weight-medium, 500);
       }
@@ -597,7 +597,7 @@
 
       .empty-state {
         color: var(--color-text-subtle, #6b7280);
-        font-size: 0.875rem; /* 0.875 * 16px = 14px */
+        font-size: var(--font-size-sm, 0.875rem);
       }
     `],oe([V({type:Array,attribute:!1})],R.prototype,"fields",2),oe([V({type:Number})],R.prototype,"columns",2),R=oe([we("field-list-widget")],R);/*!
  * Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com
@@ -612,7 +612,7 @@
       </section>
     `}},v.EmployeeDetailsWidget.styles=[Oe,Ce,Me,Pe,pt,Te,ht,g`
       :host {
+        font-size: 16px;
         display: block;
-        font-size: 16px; /* base for em units inside this component */
       }
     `],ne([V({attribute:"fields",converter:{fromAttribute:s=>{if(!s)return[];try{return JSON.parse(s)}catch(e){return console.warn("[employee-details-widget] Unable to parse fields attribute, expected JSON array.",e),[]}}}})],v.EmployeeDetailsWidget.prototype,"fields",2),ne([V({type:Number})],v.EmployeeDetailsWidget.prototype,"columns",2),v.EmployeeDetailsWidget=ne([we("employee-details-widget")],v.EmployeeDetailsWidget),Object.defineProperty(v,Symbol.toStringTag,{value:"Module"})});
