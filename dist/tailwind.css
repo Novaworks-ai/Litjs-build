@@ -1,0 +1,29 @@
+/* global.css or styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define CSS variables for theme colors */
+:root {
+  --color-primary: 79 70 229;  /* #4F46E5 in RGB */
+  --color-secondary: 249 115 22; /* #F97316 in RGB */
+}
+
+/* Optional: Add custom utility classes */
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-700 transition-colors duration-200 px-4 py-2 rounded-md font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-700 transition-colors duration-200 px-4 py-2 rounded-md font-medium;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 border border-gray-200;
+  }
+  
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent;
+  }
+}
